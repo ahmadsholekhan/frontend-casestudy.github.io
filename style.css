@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;700&display=swap');
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px 2px rgba(224, 224, 224, 0.25);
+    width: 100%;
+    height: 60px;
+    top: 1px;
+}
+
+.jumbotron {
+    background-image: url(img/ilustration.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 490px;
+}
+
+.teks {
+    width: 540px;
+    height: 138x;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.nav-link {
+    color: #262627;
+}
+
+.nav-item button {
+    background: #FC8047;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.lead {
+    font-size: 25px;
+    color: #393939;
+}
+
+.mitra {
+    background-image: url(img/line.png);
+    background-size: initial;
+}
+
+.display-4 {
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.col-md h3 {
+    font-size: 30px;
+    color: #393939;
+    margin-top: 54px;
+    margin-bottom: 53px;
+}
+
+.col-md h4 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+
+.col-md p {
+    font-size: 16px;
+    color: #393939;
+}
+
+.fas {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #5CBCD2;
+    background: #FAFAFA;
+    box-shadow: 0px 5px 25px rgba(15, 132, 159, 0.2)
+}
+
+.far {
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #FD8369;
+    background: #FAFAFA;
+}
+
+.card {
+    margin-left: 50px;
+    text-align: center;
+    width: 211px;
+}
+
+.card-body p {
+    padding: 10px;
+    margin: 0px;
+}
+
+.collabs {
+    margin-top: 62px;
+}
+
+.collabs h3 {
+    font-size: 30px;
+    color: #393939;
+}
+
+.collabs p {
+    font-size: 18px;
+    color: #393939;
+    text-align: center;
+}
+
+.collabs hr {
+    margin-top: 24px;
+    color: #393939;
+}
+
+.telepon {
+    margin-top: -22px;
+}
+
+.form {
+    margin-top: 38px;
+}
+
+.form-group {
+    margin-bottom: 3px;
+}
+
+.button {
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #FC8047;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 2px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #content {
+        width: 100%;
+        padding: 0;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
